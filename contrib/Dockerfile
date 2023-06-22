@@ -1,7 +1,7 @@
 # example of Dockerfile that builds release of electrumx-1.13.0
 # ENV variables can be overrided on the `docker run` command
 
-FROM ubuntu:20.04
+FROM ubuntu:22.04
 
 WORKDIR /
 ADD https://github.com/spesmilo/electrumx/archive/1.15.0.tar.gz /
