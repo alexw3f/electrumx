@@ -11,7 +11,7 @@ setuptools.setup(
     extras_require={
         'rapidjson': ['python-rapidjson>=1.10,<1.11.0'],
         'rocksdb': ['python-rocksdb>=0.6.9'],
-        'ujson': ['ujson>=2.0.0,<4.0.0'],
+        'ujson': ['ujson>=5.10.0,<5.11.0'],
         'uvloop': ['uvloop>=0.14'],
         # For various coins
         'blake256': ['blake256>=0.1.1'],
